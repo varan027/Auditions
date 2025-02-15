@@ -2,17 +2,32 @@
  background-color: black;
  color: white;
 }
-div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.error{
+  color: rgb(186, 3, 3);
 }
-h1{
+.success{
+  color: green;
+}
+.visit{
+  color: orange;
+}
+div{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(226, 215, 238);
+  height: 22rem;
+  width: 80%;
+  padding: 20px;
+  border-radius: 20px;
+}
+h2{
   text-align: center;
 }
-#myform input{
+label{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.in-color{
+  background-color: rgb(27, 5, 50);
+}
