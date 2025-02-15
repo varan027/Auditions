@@ -19,13 +19,13 @@ form.addEventListener("submit", (event)=>{
 
   else if(age.value>=20 && age.value<90){
     if(nameval.value == "avinash"){
-      msg.textContent = "Congratulations VOLT you are selected"
+      msg.textContent = "Congratulations you are selected"
     }
     else if(nameval.value == "rumesh"){
-      msg.textContent = "Congratulations GOKUL CHAT you are selected"
+      msg.textContent = "Congratulations you are selected"
     }
     else if(nameval.value == "varan"){
-      msg.textContent = "Congratulations VARAN you are selected as EDITOR of our film"
+      msg.textContent = "Congratulations you are selected"
     }
   }
 
@@ -33,4 +33,6 @@ form.addEventListener("submit", (event)=>{
     msg.textContent = "You are too OLD grandpa"
   }
 })
-// this is ended
+function darkmode(){
+document.getElementsByTagName("body")[0].classList.toggle("bg-color")
+}
