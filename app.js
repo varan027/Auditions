@@ -23,7 +23,7 @@ form.addEventListener("submit", (event)=>{
 
   else if(age.value>=20 && age.value<80){
 
-    if(nameval.value == "avinash" || nameval.value == "varan" || nameval.value == "rumesh" || nameval.value == "kranthi"){
+    if(nameval.value.toLowerCase() == "avinash" || nameval.value.toLowerCase() == "varan" || nameval.value.toLowerCase() == "rumesh" || nameval.value.toLowerCase() == "kranthi"){
       msg.textContent = "Congratulations you are selected"
       msg.classList.add("success")
     }
